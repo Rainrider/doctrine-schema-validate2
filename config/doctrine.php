@@ -15,7 +15,7 @@ $dbParams = [
     'password' => 's3cr37',
     'host' => '0.0.0.0',
     'port' => 61949,
-    'driver' => 'pdo_pgsql',
+    'driver' => 'pdo_mysql',
 ];
 
 $config = Setup::createAttributeMetadataConfiguration($paths, true);
